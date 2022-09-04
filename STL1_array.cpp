@@ -5,11 +5,11 @@ using namespace std;
     NOTE:- 
             in Global scope :
                 Valid size of array of type ( int , float , double)  is 10^7
-                and for array of type ( bool) is 10^8. 
+                and for array of type ( bool) it is 10^8. 
                 
             but in local scope : 
                 Valid size of array of type ( int , float , double)  is 10^6
-                and for array of type ( bool) is 10^7 
+                and for array of type ( bool) it is 10^7 
 */
 
 int main()
