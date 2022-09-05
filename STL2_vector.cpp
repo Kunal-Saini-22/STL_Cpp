@@ -1,6 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*  Why Vector ? 
+    In array user need to pre-define its size but vector is called a dynamic array as one can 
+    add elements to it dynamically , initially when declared an array its size = 0 , as we push 
+    an element into it its capacity starts  becomes double of its previous capacity.     
+*/
+
 int main()
 {
     // syntax : vector<data_type> vector_name;
