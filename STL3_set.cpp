@@ -47,14 +47,14 @@ int main()
            
             set<string>::iterator it1, it2;
 
-            it1 = fruit.begin();    // it1 -> "Apple"
-            it2 = fruit.end();      // it2 -> "Papaya" + 1
+            it1 = fruit.begin();            // it1 -> "Apple"
+            it2 = fruit.end();              // it2 -> "Papaya" + 1
             
-            it2--;                  // it2 -> "Papaya"
-            it2--;                  // it2 -> "Mango"
+            it2--;                          // it2 -> "Papaya"
+            it2--;                          // it2 -> "Mango"
 
-            fruit.erase(it1,it2);   // will erase elements in range : [it1,it2) 
-                                    // i.e ["Apple" , "Grapes"] will be deleted but not "Mango".
+            fruit.erase(it1,it2);           // will erase elements in range : [it1,it2) 
+                                            // i.e ["Apple" , "Grapes"] will be deleted but not "Mango".
 
             for(auto i: fruit)
             {
@@ -65,7 +65,7 @@ int main()
         set<int>even = {0,2,4,6,8};
         set<int>odd = {1,3,5};
 
-        swap(even,odd);             // even = {1,3,5}  odd = {0,2,4,6,8}
+        swap(even,odd);                     // even = {1,3,5}  odd = {0,2,4,6,8}
 
 
   return 0;
