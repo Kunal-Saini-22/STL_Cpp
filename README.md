@@ -10,7 +10,7 @@
 ### 3.Set
 > Stores unique elements in sorted manner.
    **Note** : set is internally implemented using RB tree therefore (any address) can’t be subjected to arithmetic operators like ‘address + 1’
-   or ‘address -1’ instead of     ‘address’ or ‘address - -’ operators should be used.<br>
+   or ‘address -1’ instead of it ‘address++’ or ‘address - -’ operators should be used.<br>
    [Set in C++ STL](https://takeuforward.org/c/set-in-c-stl/)
  
 ### 4. Multiset 
