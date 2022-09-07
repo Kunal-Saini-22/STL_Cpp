@@ -44,7 +44,7 @@ int main()
 
         // Elements will be stored in sorted order as : {"Papaya","Apple","Grapes"," Mango"}
 
-        fruit.erase(fruit.find("Apple") , fruit.end());   // will erase elements in range : [it1,it2) 
+        fruit.erase(fruit.find("Apple") , fruit.end());   // will erase elements in range : ["Apple","Mango") 
                                                           // i.e ["Apple" , "Grapes"] will be deleted but not "Mango".
         for(auto i: fruit)
           {
