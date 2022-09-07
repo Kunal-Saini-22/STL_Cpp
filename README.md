@@ -16,4 +16,10 @@
 ### 4. Multiset 
  > Stores values in sorted order but not uniquely.<br>
  [Functions in multiset](https://takeuforward.org/c/c-stl/multiset-in-c-stl/)
+ 
+### 5. Unordered_Set
+ > A set that stores value in a random order. As it's a type of set that's why it stores only unique values.<br>
+ > [Functions in Unordered_set](https://takeuforward.org/c/unordered-set-in-c-stl/) 
+ 
+ 
 
