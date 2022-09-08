@@ -55,6 +55,10 @@ int main()
            v.insert(v.begin(), 12);         // {12}                   , (size = 1  & capacity = 8) 
            
            swap(v2,v3);                     // v2 = { 1,3}  & v3 = {0}  
+            
+           sort(v.begin(),v.end());         // sorts vector in increasing order : 1 , 2 , 4 , 6 , 8
+        
+           sort(v.begin(),v.end(), greater<int>());   // sorts vector in decreasing  order : 8 , 6 , 4 , 2 , 1
            
     // 3. accessing or printing a vector  
         
