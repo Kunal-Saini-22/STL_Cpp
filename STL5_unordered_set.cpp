@@ -16,13 +16,13 @@ int main()
 
   // 2. Functions on an unordered_set -
 
-        st.insert(5);                         // {5,4,3,2,1} : '5' already present , but  duplicay is allowed   
+        st.insert(5);                         // {5,4,3,2,1}   : '5' already present , but  duplicay is allowed   
  
         st.emplace(7);                        // {7,1,2,3,4,5} : order can change every time
 
         st.size();                            // size = 6
 
-        st.find(5);                           // ptr -> 5 : return pointer of first occurence of '5' in unordered_set 
+        st.find(5);                           // ptr -> 5       : return pointer of first occurence of '5' in unordered_set 
 
         st.count(2);                          // return '1' as '2' is present in set , if not then return '0'
 
@@ -30,9 +30,9 @@ int main()
 
         st.end();                             // points to right of the ending element of multiset 
 
-        st.erase(5);                          // {7,1,2,3,4} : deletes value '5' from the unordered_set
+        st.erase(5);                          // {7,1,2,3,4}     : deletes value '5' from the unordered_set
 
-        st.erase(st.begin());                 // {1,2,3,4} : begining element is deleted
+        st.erase(st.begin());                 // {1,2,3,4}       : begining element is deleted
 
         st.clear();                           // removes all elements : size = 0
 
