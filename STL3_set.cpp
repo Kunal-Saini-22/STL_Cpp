@@ -5,7 +5,7 @@ using namespace std;
 
     A set in STL is a container that stores unique elements in a particular order.
     Every operation on a set takes O(1) complexity in the average case and takes O(n)
-     in the worst case.
+    in the worst case.
 
 */
 
@@ -34,6 +34,8 @@ int main()
         st.erase(5);                        // {1,2,6,8} : deletes '5' from set
 
         st.erase(st.begin());               // {2,6,8} : begining element is deleted
+    
+        st.swap(6,8);                       // {2,8,6} : after swapping '6' and '8'
 
         st.clear();                         // removes all elements : size = 0
 
