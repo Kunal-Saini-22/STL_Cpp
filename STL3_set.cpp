@@ -13,7 +13,7 @@ int main()
 {
     // 1. Declarations or  syntax of a set  : set<data_type> set_name;
             
-            set<int>st{1,2,6,8};            // sorted & unique elements only.
+        set<int>st{1,2,6,8};                // sorted & unique elements only.
     
     // 2. Functions on a set -
 
