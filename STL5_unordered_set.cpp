@@ -12,7 +12,7 @@ int main()
 {
   // 1. Declarations or  syntax of a unordered_set  :  unordered_set<data_type> set_name;
 
-          unordered_set<int>st{1,2,3,4,4,5};  // {5,4,3,2,1} , elements stored in any random order  
+        unordered_set<int>st{1,2,3,4,4,5};    // {5,4,3,2,1} , elements stored in any random order  
 
   // 2. Functions on an unordered_set -
 
