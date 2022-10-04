@@ -5,7 +5,7 @@
    [Functions in arrays](https://www.studytonight.com/cpp/stl/stl-container-array)
 ### 2.Vector
 > It's a dynamic size array i.e user need not to pre-define its size as we keep pushing the elements into it its size & capacity changes by itself.<br>
- [Functions in vector](https://takeuforward.org/c/vector-in-c-stl/)
+ [Functions in vector](https://www.studytonight.com/cpp/stl/stl-container-vector)
 
 ### 3.Set
 > Stores unique elements in sorted manner.
