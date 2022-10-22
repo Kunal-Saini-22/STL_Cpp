@@ -135,8 +135,8 @@ int countNodes(Node *head){
     return n;
 }
 
-// int main(){
-//     Node *head = NULL;
-//     head=insertAtHead(head, 10);
-//     printList(head);
-// }
+int main(){
+    Node *head = NULL;
+    head=insertAtHead(head, 10);
+    printList(head);
+}
