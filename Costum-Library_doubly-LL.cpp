@@ -127,15 +127,15 @@ void printList(Node *head)
     }
     cout << endl;
 }
-int main(){
-    Node *head = NULL;
-    head=insertAtEnd(head,4);
-    head = insertAtEnd(head, 15);
-    head = insertAtEnd(head, 7);
-    head = insertAtEnd(head, 40);
-    head = insert(head, 25, 1);
-    printList(head);
-    head = deleteNode(head, 5);
-    printList(head);
-    return 0;
-}
+// int main(){
+//     Node *head = NULL;
+//     head=insertAtEnd(head,4);
+//     head = insertAtEnd(head, 15);
+//     head = insertAtEnd(head, 7);
+//     head = insertAtEnd(head, 40);
+//     head = insert(head, 25, 1);
+//     printList(head);
+//     head = deleteNode(head, 5);
+//     printList(head);
+//     return 0;
+// }
