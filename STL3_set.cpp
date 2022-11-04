@@ -35,7 +35,7 @@ int main()
 
         st.erase(st.begin());               // {2,6,8} : begining element is deleted
     
-        st.swap(6,8);                       // {2,8,6} : after swapping '6' and '8'
+        st.swap(st2);                       // swaps set 'st' with 'st2' 
 
         st.clear();                         // removes all elements : size = 0
 
