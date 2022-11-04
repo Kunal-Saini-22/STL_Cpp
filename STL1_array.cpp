@@ -48,7 +48,7 @@ int main()
             
             arr.fill(9);                // { 9 , 9 , 9 , 9 , 9 , 9 }
             
-            sort(arr , arr + arr.size());   // sorts an array in increasing order : 1, 2 ,3 ,4 ,5
+            sort(arr.begin() , arr.end());   // sorts an array in increasing order : 1, 2 ,3 ,4 ,5
             
     // 3. accessing or printing an array 
         
